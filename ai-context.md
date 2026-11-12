@@ -1016,3 +1016,11 @@ Have ideas for improving this file? Found something missing or incorrect?
 **Contact:** Ben Fraser  
 **Email:** <ben.fraser@justice.gov.uk>  
 **Slack:** x-Gov Slack, [Ben Fraser (MoJ)](https://ukgovernmentdigital.slack.com/team/U09B140MVCK)
+
+---
+
+## GitHub Repository
+
+**Repository:** [ministryofjustice/prototype-kit-ai-context](https://github.com/ministryofjustice/prototype-kit-ai-context)
+
+This AI context file is maintained in the Ministry of Justice's prototype kit repository. For issues, contributions, or questions, please visit the repository or create an issue on GitHub.
