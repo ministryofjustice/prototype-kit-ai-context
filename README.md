@@ -33,7 +33,7 @@ This AI context is available via the **[GOV.UK Reuse Library](https://reuselibra
 - [GOV.UK Prototype Kit](https://prototype-kit.service.gov.uk/docs)
 - [GOV.UK Design System](https://design-system.service.gov.uk)
 - [GOV.UK Style Guide](https://www.gov.uk/guidance/style-guide/a-to-z)
-- [Justice Reuse Library](https://reuselibrary.service.justice.gov.uk/)
+- [GOV.UK Reuse Library](https://reuselibrary.service.justice.gov.uk/)
 
 ## Contributing
 
