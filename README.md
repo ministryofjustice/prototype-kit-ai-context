@@ -26,7 +26,7 @@ This AI context is maintained by the Ministry of Justice to provide clear, struc
 
 ## Reuse Library
 
-This AI context is available via the **[Justice Reuse Library](https://reuselibrary.service.justice.gov.uk/)**. You can access and reuse this guidance across your projects through the Justice services reuse platform.
+This AI context is available via the **[GOV.UK Reuse Library](https://reuselibrary.service.justice.gov.uk/)**. You can access and reuse this guidance across your projects through the MOJ-curated services reuse platform.
 
 ## Links
 
