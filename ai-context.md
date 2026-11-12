@@ -937,6 +937,43 @@ router.post("/v2/contact-preference", function (request, response) {
 });
 ```
 
+### Splitting route files
+
+If `routes.js` becomes hard to scan because it contains lots of branching or routes for several versions, move each version's routes into its own file. Keep `routes.js` as the entry point that loads them:
+
+```text
+app/
+├── routes.js
+└── routes/
+    ├── v1.js
+    └── v2.js
+```
+
+```javascript
+// app/routes.js
+module.exports = function (router) {
+  require("./routes/v1")(router);
+  require("./routes/v2")(router);
+};
+```
+
+```javascript
+// app/routes/v2.js
+module.exports = function (router) {
+  router.post("/v2/contact-preference", function (request, response) {
+    const contact = request.session.data["contact"];
+
+    if (contact === "email") {
+      response.redirect("/v2/email-address");
+    } else {
+      response.redirect("/v2/phone-number");
+    }
+  });
+};
+```
+
+Keep route paths version-specific and leave shared routing logic in a common module if more than one version needs it.
+
 ### Accessing data in templates
 
 ```nunjucks
