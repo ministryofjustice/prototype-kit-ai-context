@@ -1024,3 +1024,9 @@ Have ideas for improving this file? Found something missing or incorrect?
 **Repository:** [ministryofjustice/prototype-kit-ai-context](https://github.com/ministryofjustice/prototype-kit-ai-context)
 
 This AI context file is maintained in the Ministry of Justice's prototype kit repository. For issues, contributions, or questions, please visit the repository or create an issue on GitHub.
+
+---
+
+## Reuse Library
+
+This AI context is available via the **[GOV.UK Reuse Library](https://reuselibrary.service.justice.gov.uk/)**. You can access and reuse this guidance across your projects through the MOJ-curated services reuse platform.
